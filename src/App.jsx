@@ -35,9 +35,9 @@ function App() {
       <div className="app">
         <Timer time={time}/>
         <div>
-          <button className={style} onClick={startTimer}>Start</button>
-          <button onClick={stopTimer}>Stop</button>
-          <button onClick={resetTimer}>Reset</button>
+          <button className={style.btn} onClick={startTimer}>Start</button>
+          <button className={style.btn} onClick={stopTimer}>Stop</button>
+          <button className={style.btn} onClick={resetTimer}>Reset</button>
         </div>
       </div>
   );

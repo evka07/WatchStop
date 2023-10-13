@@ -1,4 +1,6 @@
 .root {
-    background: #474751;
+    background: #242438;
     margin: 120px 300px;
+    display: flex;
+    justify-content: center;
 }
