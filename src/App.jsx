@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Timer from "./components/Timer/Timer";
 import style from "./WatchStop.module.scss"
+import './style/app.css'
 
 function App() {
   const [time, setTime] = useState(0);

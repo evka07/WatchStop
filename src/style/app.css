@@ -1,6 +1,11 @@
-.root {
+body {
     background: #242438;
+}
+
+.app {
     margin: 120px 300px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
